@@ -39,7 +39,7 @@ export class Block {
 }
 
 export class Blockchain {
-  // Let's define that our "genesis" block as an empty block, starting from now.
+  // Let's define that our "genesis" block as an empty block, starting from now on..........
   public static readonly GENESIS_BLOCK = new Block(0, [], Blockchain.now(), 0, "");
 
   public static readonly DIFFICULTY = 4;
